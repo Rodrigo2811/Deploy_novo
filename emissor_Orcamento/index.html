@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="    https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"
+            integrity="sha512-MpDFIChbcXl2QgipQrt1VcPHMldRILetapBl5MPCA9Y8r7qvlwx1/Mc9hNTzY+kS5kX6PdoDq41ws1HiVNLdZA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <title>Emissor e Orçamento</title>
+    </head>
+
+    <body>
+        <div class="container-principal">
+            <h2>R.F.R Oficina, Funilaria e pintura EIRELE - ME</h2>
+
+            <div class="container-dados">
+                <p>Rua Boa Esperança, Nº 112, Centro Dias D’Ávila-BA CEP: 42.80-000Tel.(71) 9 8162-3273 <br />
+                    EMAIL: oficinabelcarrfr@yahoo.com.brCNPJ: 28.042.796/0001-64 - Inscrição Estadual - 141. 459.169 ME
+                </p>
+            </div>
+
+            <p class="nomeEmpresa"><img src="/images/Arte Fachada BelCar.webp" alt="logo" class="logo"></p>
+
+            <p class="orcamento">Orçamento</p>
+
+            <div class="containier-form1">
+                <form class="form1">
+                    Veiculo:<input type="text" id="impVeiculo" placeholder="Veiculo"><br>
+                    Cor: <input type="text" id="impCor" placeholder="Informe a cor"><br>
+                    Cliente: <input type="text" id="impCliente" placeholder="Cliente"><br>
+
+                </form>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>SERVIÇO</th>
+                            <th>VALOR R$</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+
+
+                            </td>
+                            <td>
+
+
+                            </td>
+                            <td>
+
+
+
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+
+                        <tr>
+                            <td></td>
+                            <td>Total R$ </td>
+                            <td><input type="text" id="totalServico" placeholder=" Total serviço"></td>
+                        </tr>
+
+                    </tfoot>
+
+                </table>
+
+                <div class="container-assinaturas">
+
+                    <div class="assinaturaBelCar">
+                        <hr>
+                        <p>Bel Car</p>
+                    </div>
+
+                    <div class="assinaturaCliente">
+
+                        <hr>
+                        <p>Cliente</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-Add" id="btnAdd">+</button>
+            <button type="button" class="btn btn-imprimir"><img src="/images/printer-fill.svg" alt="icon-print"
+                    id="gerarPDF"></button>
+            <button onclick="limparCampos()" type="reset" class="btn">C</button>
+
+        </div>
+
+        <script src="./js/script.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.2/html2pdf.bundle.min.js"></script>
+        <script src=" 	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+
+</html>
